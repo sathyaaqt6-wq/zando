@@ -11,11 +11,12 @@ body {
 }
 
 .header {
-  width: 1200px;
+  width: 1330px;
   height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 }
 
 .header nav ul {
@@ -25,7 +26,9 @@ body {
   font-size: 16px;
 }
 
-
+.header nav ul li {
+  position: relative;
+}
 
 .header nav .menu-logo{
     font-size: 25px;
@@ -51,6 +54,7 @@ body {
 .dropdown a{
   text-decoration: none;
   color: black;
+  display: flex;
 }
 
 .dropdown:hover .dropdown-content{
@@ -182,3 +186,273 @@ body {
   background-color: rgb(235, 235, 235);
   transition: 0.4s;
 }
+
+.main {
+  width: 1330px;
+}
+
+.slide-show {
+  width: 100%;
+  height: 650px;
+}
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide-content{
+  position: absolute;
+  line-height: 110px;
+}
+
+.slide-content p{
+  font-size: 70px;
+  color: white;
+}
+
+.slide-content .dis{
+  font-size: 200px;
+  color: white;
+  font-weight: 700;
+}
+
+.slide-show1{
+  width: 1330px;
+  height: 400px;
+  padding-top: 50px;
+}
+
+.btn-shop{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+}
+
+.btn-shop button{
+  padding: 15px 40px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 0px 0px 10px;
+}
+
+.btn-shop button:hover {
+   transform: translateY(-10px);
+   box-shadow: 0px 0px 0px;
+   scale: calc(105%);
+
+}
+
+.logo-img{
+  width: 1330px;
+  height: 190px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img .img{
+  width: 150px;
+}
+.picture-img1 {
+  width: 1330px;
+  height: 650px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture-img1.box2{
+  width: 32%;
+  height: 100%;
+}
+
+.box2 img{
+  width: 100%;
+}
+
+.picture-img3 {
+  width: 1330px;
+  height: 640px;
+  display: flex;
+  justify-content: space-between;
+  padding-top:0.5px;
+}
+
+.picture-img3.box2{
+  width: 48%;
+}
+
+.box3 img{
+  width: 100%;
+  height: 100%;
+}
+
+.black-section{
+  width: 1330px;
+  padding-top: 80px;
+}
+
+.black-section div {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.black-section div h2 {
+  font-size: 40px;
+}
+
+.black-section div a{
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+black-container {
+  width: 100%;
+  height: 525px;
+}
+
+.black-container .box1{
+  width: 24%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  position: relative;
+}
+
+.black-container .box1 img{
+  width: 100%;
+  height: 80%;
+  top: 0;
+}
+
+.box1 .title{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.box1 .title .price{
+  display: flex;
+  gap: 10px;
+}
+
+.box1 .des{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.dis1{
+  position: absolute;
+  top: 0%;
+  padding: 5px 10px;
+  left: 15px;
+  border-radius: 2px;
+  background-color: rgb(248, 4, 4);
+  color: aliceblue;
+}
+
+.footer{
+  width: 1330px;
+  padding-top: 100px 0px;
+}
+
+.card-footer1{
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.card-footer1 h4, .card-footer2 h4, .card-footer3 h4{
+  margin-bottom: 20px;
+}
+
+.first{
+  width: 100%;
+  height: 425px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.first .card-footer1{
+  width: 30%;
+}
+
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+}
+
+.qr-code img{
+  width: 100px;
+}
+
+.totaly a{
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bottum img{
+  width: 300px;
+}
+
+.second{
+  height: 100px;
+}
+
+.card-footer2{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-footer2 div ul li{
+  margin-block: 10px;
+  list-style: none;
+}
+
+.second div{
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
